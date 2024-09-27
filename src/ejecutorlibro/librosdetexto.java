@@ -27,7 +27,7 @@ public class librosdetexto extends libro {
     }
     
      public String toString(){
-        return "Titulo: "+titulo+"\nAutor: "+autor+"\nPrecio: "+precio+"\nPrecio total: "+preciofinal;
+        return "Titulo: "+titulo+"\nAutor: "+autor+"\nCurso: "+curso+"\nPrecio: "+precio+"\nPrecio total: "+preciofinal;
        
     }
 }

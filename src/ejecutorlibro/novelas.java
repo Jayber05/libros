@@ -26,7 +26,7 @@ public class novelas extends libro{
     }
     
      public String toString(){
-        return "Titulo: "+titulo+"\nAutor: "+autor+"\nPrecio: "+precio+"\nPrecio total: "+preciofinal;
+        return "Titulo: "+titulo+"\nAutor: "+autor+"\nGénero: "+genero+"\nPrecio: "+precio+"\nPrecio total: "+preciofinal;
        
     }
 }

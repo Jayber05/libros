@@ -37,10 +37,10 @@ public class Ejecutorlibro {
         switch(eleccion){
             case 1:
                 System.out.println("Titulo:");
-                titulo=entrada.next();
+                titulo=entrada.nextLine();
                 entrada.nextLine();
                 System.out.println("Autor:");
-                autor=entrada.next();
+                autor=entrada.nextLine();
                 entrada.nextLine();
                 System.out.println("Precio:");
                 precio=entrada.nextDouble();
@@ -60,8 +60,8 @@ public class Ejecutorlibro {
                 titulo=entrada.next();
                 entrada.nextLine();
                 System.out.println("Autor:");
-                autor=entrada.next();
-               entrada.nextLine();
+                autor=entrada.nextLine();
+               
                 System.out.println("Precio:");
                 precio=entrada.nextDouble();
                 System.out.println("facultad que lo publica:");
@@ -77,10 +77,10 @@ public class Ejecutorlibro {
                 
             case 3:
                  System.out.println("Titulo:");
-                titulo=entrada.next();
+                titulo=entrada.nextLine();
                 entrada.nextLine();
                 System.out.println("Autor:");
-                autor=entrada.next();
+                autor=entrada.nextLine();
                entrada.nextLine();
                 System.out.println("Precio:");
                 precio=entrada.nextDouble();
